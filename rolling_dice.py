@@ -22,7 +22,6 @@ def roll_one_dice():
         frequency = results.count(value)
         frequencies.append(frequency)
 
-    # Histogram
     hist = pygal.Bar()
     hist.title = "Results of rolling two dice 1000 times"
     hist.x_labels = ['1', '2', '3', '4', '5', '6']
@@ -44,7 +43,6 @@ def roll_two_dices():
         frequency = results.count(value)
         frequencies.append(frequency)
 
-    # Histogram
     hist = pygal.Bar()
     hist.title = "Results of rolling two dice 1000 times"
     hist.x_labels = ['2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']
